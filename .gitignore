@@ -23,3 +23,9 @@ go.work.sum
 
 # env file
 .env
+
+# for local development
+my_app_config.txt
+
+# built executable
+syncd
