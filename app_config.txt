@@ -1,0 +1,8 @@
+# S3 Sync Configuration File
+aws_access_key=ACCESS
+aws_secret_key=SECRET
+local_dir=/path/to/local/directory
+bucket_name=my-s3-bucket
+prefix=backup/
+sync_marker_file=my_custom_sync_marker.txt  # Optional, defaults to syncd.txt if not specified
+sync_interval=1h
